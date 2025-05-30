@@ -5,7 +5,7 @@ const firstWord = prompt('Scrivi una parola')
 const secondWord = prompt('Scrivi una seconda parola')
 
 //  Il software stampa prima la parola più corta poi la parola più lunga
-if (firstWord.length > secondWord.lentgh) {
+if (firstWord.length > secondWord.length) {
     alert('La parola più corta è : ' + secondWord)
     alert('La parola più lunga è : ' + firstWord)
     console.log('La parola più corta è : ' + secondWord)
