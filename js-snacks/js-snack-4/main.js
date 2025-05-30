@@ -12,4 +12,5 @@ for (let i = repeat; i > 0; i--) {
         oddNumbers.push(singleNumber)
     }
 }
-console.log(oddNumbers)
+alert('I numeri dispari sono: ' + oddNumbers)
+console.log('I numeri dispari sono: ' + oddNumbers)
