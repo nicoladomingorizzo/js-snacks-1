@@ -7,9 +7,6 @@ let repeat = 10
 // Il programma stampa la somma di tutti i numeri inseriti
 
 
-
-const allNumbers = []
-
 let numbersSum = 0
 for (let i = repeat; i >= 1; i--) {
     let singleNumber = Number(prompt('Scrivi il primo numuero'))
