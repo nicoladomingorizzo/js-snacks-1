@@ -10,7 +10,7 @@ if (firstWord.length > secondWord.length) {
     alert('La parola più lunga è : ' + firstWord)
     console.log('La parola più corta è : ' + secondWord)
     console.log('La parola più lunga è : ' + firstWord)
-} else if (firstWord < secondWord) {
+} else if (firstWord.length < secondWord.length) {
     alert('La parola più corta è : ' + firstWord)
     alert('La parola più lunga è : ' + secondWord)
     console.log('La parola più corta è : ' + firstWord)
